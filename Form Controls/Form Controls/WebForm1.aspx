@@ -26,6 +26,17 @@
         <asp:CheckBox ID = "chkbox3" runat = "server" Text = "Lunch" /> <br />
         <asp:CheckBox ID = "chkbox4" runat = "server" Text = "Evening Tea" /> <br />
         <asp:CheckBox ID = "chkbox5" runat = "server" Text = "Dinner" /> <br />
+        <hr />
+
+        Select Your Size : 
+        <asp:DropDownList ID = "dbl1" runat = "server">
+            <asp:ListItem Value = "S-S" Selected = "True"> Select Size </asp:ListItem>
+            <asp:ListItem Value = "XS"> Extra Small </asp:ListItem>
+            <asp:ListItem Value = "S"> Small </asp:ListItem>
+            <asp:ListItem Value = "M"> Medium </asp:ListItem>
+            <asp:ListItem Value = "L"> Large </asp:ListItem>
+            <asp:ListItem Value = "XL"> Extra Large </asp:ListItem>
+            </asp:DropDownList> <br />
 
         <asp:Button ID = "btnName" runat = "server" Text = "Submit" />
     </form>  

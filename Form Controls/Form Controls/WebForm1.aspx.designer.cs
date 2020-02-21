@@ -141,6 +141,15 @@ namespace Form_Controls
         protected global::System.Web.UI.WebControls.CheckBox chkbox5;
 
         /// <summary>
+        /// dbl1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList dbl1;
+
+        /// <summary>
         /// btnName control.
         /// </summary>
         /// <remarks>

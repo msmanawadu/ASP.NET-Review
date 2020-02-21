@@ -13,5 +13,10 @@ namespace Form_Controls
         {
 
         }
+
+        protected void dbl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
